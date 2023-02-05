@@ -19,25 +19,23 @@ body {
   margin: 0 0 5px;
 }
 
-.page-subtitle {
-  color: #ffffff;
-  margin-top: 5px;
-}
 
-.page-logo {
-  width: 200px;
-}
-
-.alura-logo {
-  width: 40px;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
 
 #listaJogos img {
   margin: 10px;
   max-height: 250px;
+}
+#listaNomeJogos{
+  margin: 10px;
+  max-height: 250px;
+  color: rgb(253, 0, 0);
+  font-size: 20px;
+}
+#JogosDalista{
+  margin: 10px;
+  max-height: 250px;
+  color: rgb(253, 0, 0);
+  font-size: 20px;
 }
 
 .form-wrapper {
@@ -48,6 +46,7 @@ body {
   display: block;
   margin: 0 auto;
   padding: 10px 15px;
+
 }
 
 .form-wrapper button {
@@ -66,3 +65,5 @@ body {
 .form-wrapper button:hover {
   opacity: 0.8;
 }
+
+
